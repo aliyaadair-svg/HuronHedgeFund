@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Members — Huron Hedge Fund Club</title>
+<meta name="description" content="Meet the executive team, portfolio managers, and analysts of Huron Hedge Fund Club.">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="members">
+
+<div class="ticker-wrap" aria-hidden="true">
+  <div class="ticker-track">
+    <span class="ticker-item up">AI <span class="arrow">▲</span> SECTOR</span>
+    <span class="ticker-item down">CRYPTO <span class="arrow">▼</span> SECTOR</span>
+    <span class="ticker-item up">RETAIL <span class="arrow">▲</span> SECTOR</span>
+    <span class="ticker-item down">ENERGY <span class="arrow">▼</span> SECTOR</span>
+    <span class="ticker-item up">FINTECH <span class="arrow">▲</span> SECTOR</span>
+    <span class="ticker-item up">AI <span class="arrow">▲</span> SECTOR</span>
+    <span class="ticker-item down">CRYPTO <span class="arrow">▼</span> SECTOR</span>
+    <span class="ticker-item up">RETAIL <span class="arrow">▲</span> SECTOR</span>
+    <span class="ticker-item down">ENERGY <span class="arrow">▼</span> SECTOR</span>
+    <span class="ticker-item up">FINTECH <span class="arrow">▲</span> SECTOR</span>
+  </div>
+</div>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand"><img src="assets/logo.png" alt="Huron Hedge Fund Club crest">Huron Hedge Fund Club</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html" data-page-link="home">Home</a>
+      <a href="performance.html" data-page-link="performance">Performance</a>
+      <a href="members.html" data-page-link="members">Members</a>
+      <a href="insights.html" data-page-link="insights">Insights</a>
+      <a href="join.html" data-page-link="join" class="nav-cta">Join</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <div class="page-hero">
+    <p class="eyebrow">The Team</p>
+    <h1>Meet the Members</h1>
+    <p class="section-lede">
+      The people building coverage, running sectors, and defending theses in front of the
+      investment committee.
+    </p>
+  </div>
+
+  <div class="member-filter" id="memberFilter">
+    <button class="active" data-filter="all">All</button>
+    <button data-filter="exec">Executive</button>
+    <button data-filter="pm">Portfolio Manager</button>
+    <button data-filter="econ">Economic Lead</button>
+    <button data-filter="advisor">Advisor</button>
+    <button data-filter="analysts">Analysts</button>
+  </div>
+
+  <div class="member-grid" id="memberGrid">
+    <p class="loading-placeholder">Loading members…</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <a href="index.html" class="brand"><img src="assets/logo.png" alt="Huron Hedge Fund Club crest">Huron Hedge Fund Club</a>
+    <div class="footer-links">
+      <a href="mailto:huronhedgeclub@example.com">Email</a>
+      <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="#" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+  <p class="fine-print">Huron Hedge Fund Club is a student organization. The fund discussed is a paper (simulated) fund for educational purposes only — not investment advice, and no real capital is deployed.</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

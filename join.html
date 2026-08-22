@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Join — Huron Hedge Fund Club</title>
+<meta name="description" content="Apply to join Huron Hedge Fund Club. No finance background required.">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="join">
+
+<div class="ticker-wrap" aria-hidden="true">
+  <div class="ticker-track">
+    <span class="ticker-item up">AI <span class="arrow">▲</span> SECTOR</span>
+    <span class="ticker-item down">CRYPTO <span class="arrow">▼</span> SECTOR</span>
+    <span class="ticker-item up">RETAIL <span class="arrow">▲</span> SECTOR</span>
+    <span class="ticker-item down">ENERGY <span class="arrow">▼</span> SECTOR</span>
+    <span class="ticker-item up">FINTECH <span class="arrow">▲</span> SECTOR</span>
+    <span class="ticker-item up">AI <span class="arrow">▲</span> SECTOR</span>
+    <span class="ticker-item down">CRYPTO <span class="arrow">▼</span> SECTOR</span>
+    <span class="ticker-item up">RETAIL <span class="arrow">▲</span> SECTOR</span>
+    <span class="ticker-item down">ENERGY <span class="arrow">▼</span> SECTOR</span>
+    <span class="ticker-item up">FINTECH <span class="arrow">▲</span> SECTOR</span>
+  </div>
+</div>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand"><img src="assets/logo.png" alt="Huron Hedge Fund Club crest">Huron Hedge Fund Club</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html" data-page-link="home">Home</a>
+      <a href="performance.html" data-page-link="performance">Performance</a>
+      <a href="members.html" data-page-link="members">Members</a>
+      <a href="insights.html" data-page-link="insights">Insights</a>
+      <a href="join.html" data-page-link="join" class="nav-cta">Join</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <div class="page-hero">
+    <p class="eyebrow">Applications Open</p>
+    <h1>Become a Member</h1>
+    <p class="section-lede" id="joinIntro">
+      Five stages: apply, interview, training pipeline, sector placement, then your first IC
+      pitch. No finance background required.
+    </p>
+  </div>
+
+  <section class="form-section">
+    <form id="joinForm" novalidate>
+      <div class="field-row">
+        <div class="field">
+          <label for="firstName">First Name</label>
+          <input type="text" id="firstName" name="firstName" required>
+        </div>
+        <div class="field">
+          <label for="lastName">Last Name</label>
+          <input type="text" id="lastName" name="lastName" required>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="email">School Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="yearOfStudy">Year of Study</label>
+          <select id="yearOfStudy" name="yearOfStudy" required>
+            <option value="" disabled selected>Select year</option>
+            <option>First Year</option>
+            <option>Second Year</option>
+            <option>Third Year</option>
+            <option>Fourth Year+</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="program">Program</label>
+          <input type="text" id="program" name="program" placeholder="e.g. BMOS" required>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="deskPreference">Sector Preference</label>
+        <select id="deskPreference" name="deskPreference">
+          <option value="" disabled selected>Select a sector</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="whyJoin">Why do you want to join?</label>
+        <textarea id="whyJoin" name="whyJoin" rows="5" placeholder="A stock or trend you've been thinking about counts as an answer." required></textarea>
+      </div>
+
+      <p class="form-note" id="formNote">
+        This form is a front-end preview — submissions aren't sent anywhere yet.
+      </p>
+
+      <button type="submit" class="btn btn-primary">Submit Application</button>
+
+      <div class="form-success" id="formSuccess">
+        <h3>Application received.</h3>
+        <p>Thanks for applying — the exec team will follow up by email.</p>
+      </div>
+
+      <div class="form-error" id="formError">
+        <h3>Form isn't connected yet.</h3>
+        <p>This site's owner needs to add a form endpoint in <code>js/data.js</code> (see README.md) before applications can be received.</p>
+      </div>
+    </form>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <a href="index.html" class="brand"><img src="assets/logo.png" alt="Huron Hedge Fund Club crest">Huron Hedge Fund Club</a>
+    <div class="footer-links">
+      <a href="mailto:huronhedgeclub@example.com">Email</a>
+      <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="#" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+  <p class="fine-print">Huron Hedge Fund Club is a student organization. The fund discussed is a paper (simulated) fund for educational purposes only — not investment advice, and no real capital is deployed.</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

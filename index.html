@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Huron Hedge Fund Club</title>
+<meta name="description" content="Huron Hedge Fund Club — a student-run long/short paper fund organized into sectors.">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+
+<div class="ticker-wrap" aria-hidden="true">
+  <div class="ticker-track">
+    <span class="ticker-item up">AI <span class="arrow">▲</span> SECTOR</span>
+    <span class="ticker-item down">CRYPTO <span class="arrow">▼</span> SECTOR</span>
+    <span class="ticker-item up">RETAIL <span class="arrow">▲</span> SECTOR</span>
+    <span class="ticker-item down">ENERGY <span class="arrow">▼</span> SECTOR</span>
+    <span class="ticker-item up">FINTECH <span class="arrow">▲</span> SECTOR</span>
+    <span class="ticker-item up">AI <span class="arrow">▲</span> SECTOR</span>
+    <span class="ticker-item down">CRYPTO <span class="arrow">▼</span> SECTOR</span>
+    <span class="ticker-item up">RETAIL <span class="arrow">▲</span> SECTOR</span>
+    <span class="ticker-item down">ENERGY <span class="arrow">▼</span> SECTOR</span>
+    <span class="ticker-item up">FINTECH <span class="arrow">▲</span> SECTOR</span>
+  </div>
+</div>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand"><img src="assets/logo.png" alt="Huron Hedge Fund Club crest">Huron Hedge Fund Club</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html" data-page-link="home">Home</a>
+      <a href="performance.html" data-page-link="performance">Performance</a>
+      <a href="members.html" data-page-link="members">Members</a>
+      <a href="insights.html" data-page-link="insights">Insights</a>
+      <a href="join.html" data-page-link="join" class="nav-cta">Join</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <p class="eyebrow">Huron Hedge Fund Club</p>
+    <h1 id="heroTitle">Long/short investing, run by students who argue both sides.</h1>
+    <p class="hero-sub" id="heroSub">Huron Hedge Fund Club runs a student paper fund across sectors — every position gets pitched, and then pitched against, before it reaches the investment committee.</p>
+    <div class="hero-actions">
+      <a href="join.html" class="btn btn-primary">Become a Member</a>
+      <a href="#model" class="btn btn-ghost">See the model</a>
+    </div>
+  </section>
+
+  <section class="model" id="model">
+    <div class="section-head">
+      <p class="eyebrow">01 — The Model</p>
+      <h2>Long/Short, run like a real book.</h2>
+      <p class="section-lede" id="modelLede">
+        Every position a sector proposes gets argued in both directions before it reaches the
+        investment committee. That tension is the point.
+      </p>
+    </div>
+
+    <div class="ledger">
+      <div class="ledger-card long">
+        <div class="ledger-label"><span class="tag">LONG</span><span class="mono">CONVICTION BUY</span></div>
+        <h3>Sectors build the thesis</h3>
+        <p>Analysts on each sector pitch names they'd actually put capital behind — with a
+        catalyst, a valuation case, and a variant view.</p>
+      </div>
+      <div class="ledger-card short">
+        <div class="ledger-label"><span class="tag">SHORT</span><span class="mono">CONVICTION SELL</span></div>
+        <h3>The sector pitches against itself</h3>
+        <p>Before anything reaches the IC, the same team has to build the strongest case
+        for why the trade is wrong.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="desks" id="desks">
+    <div class="section-head">
+      <p class="eyebrow">02 — Sectors</p>
+      <h2>Pick a sector. Own a book.</h2>
+    </div>
+
+    <div class="desk-grid" id="deskGrid">
+      <p class="loading-placeholder">Loading sectors…</p>
+    </div>
+  </section>
+
+  <section class="quick-links">
+    <a href="performance.html" class="quick-link">
+      <span class="qeyebrow">Fund Performance</span>
+      <h3>See the paper book</h3>
+      <p>Live-style stats on the fund's simulated long/short positions, updated by sector.</p>
+    </a>
+    <a href="members.html" class="quick-link">
+      <span class="qeyebrow">Meet the Members</span>
+      <h3>Who's behind each sector</h3>
+      <p>Executive team, portfolio managers, and analysts — organized by role.</p>
+    </a>
+    <a href="insights.html" class="quick-link">
+      <span class="qeyebrow">Insights</span>
+      <h3>Read the pitches</h3>
+      <p>Short write-ups from each sector on the theses driving their positions.</p>
+    </a>
+  </section>
+
+  <section class="join" id="join">
+    <div class="join-inner">
+      <p class="eyebrow">Applications</p>
+      <h2>Positions open every fall and winter term.</h2>
+      <p class="section-lede" id="joinLede">
+        No finance background required — just a genuine interest in figuring out
+        why a stock should move.
+      </p>
+      <div class="hero-actions">
+        <a href="join.html" class="btn btn-primary">Become a Member</a>
+        <a href="mailto:huronhedgeclub@example.com" class="btn btn-ghost">Email Us</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <a href="index.html" class="brand"><img src="assets/logo.png" alt="Huron Hedge Fund Club crest">Huron Hedge Fund Club</a>
+    <div class="footer-links">
+      <a href="mailto:huronhedgeclub@example.com">Email</a>
+      <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="#" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+  <p class="fine-print">Huron Hedge Fund Club is a student organization. The fund discussed is a paper (simulated) fund for educational purposes only — not investment advice, and no real capital is deployed.</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
