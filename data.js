@@ -90,7 +90,7 @@ window.HURON_DATA = {
   // ----------------------------------------------------------
   members: [
     { initials: "AA", name: "Aliya Adair", role: "Co-President", bio: "Sets IC agenda and oversees fund-wide risk across all sectors.", category: "exec", photo: "assets/members/aliya-adair.jpg" },
-    { initials: "LC", name: "Lachlan Cook", role: "Co-President", bio: "Owns position sizing and long/short balance across the book.", category: "exec" },
+    { initials: "LC", name: "Lachlan Cook", role: "Co-President", bio: "Owns position sizing and long/short balance across the book.", category: "exec" }, photo: "assets/members/lachlan-cook.jpg" },
     { initials: "RC", name: "R. Chen", role: "AI Portfolio Manager", bio: "Runs the AI sector's coverage list and mentors incoming analysts.", category: "pm" },
     { initials: "MP", name: "M. Patel", role: "Crypto Portfolio Manager", bio: "Covers market structure and digital-asset market microstructure.", category: "pm" },
     { initials: "SA", name: "S. Alvarez", role: "Retail Portfolio Manager", bio: "Focuses on consumer brand economics and channel checks.", category: "pm" },
